@@ -3,56 +3,129 @@
 <head>
 	<meta charset="utf-8">
 	<title>ZerpaTechnology</title>
+	<!--<meta http-equiv="refresh" content="1">-->
 	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/ff.css">
 </head>
-<body>
-<div class="container-fluid">
+<body class="sin-marg">
+<div class="container-fluid bg-gray">
 	<header class="row">
-		<div class="col-md-3">
+	<div class="container-fluid fixed width-100p pad-l2">
+	<nav class="row bg-blue">
+
+		<div class="col-md-3 bg-gray">
 			<h1>zerpaTechnology</h1>
 		</div>
 		<div class="col-md-8">
-			<nav class="box height-7">
-				<div class="row height-7">
-					<a href="" class="col-md-3">
-						<div class="box">Inico</div>
+			<nav class="box">
+				<div class="row marg-l0 pad-2-a">
+					<a href="" class="col-md-3 bg-purple decoration-none">
+						<div class="box  text-center white marg-t2">Inico</div>
 					</a>
-					<a href="" class="col-md-3">
-						<div class="box">Acerca de Nosotros</div>
+					<a href="" class="col-md-3 bg-purple decoration-none">
+						<div class="box text-center white marg-t2">Acerca de Nosotros</div>
 					</a>
-					<a href="" class="col-md-3">
-						<div class="box">Productos</div>
+					<a href="" class="col-md-3 bg-purple decoration-none">
+						<div class="box text-center white marg-t2">Productos</div>
 					</a>
-					<a href="" class="col-md-3">
-						<div class="box">Contacto</div>
+					<a href="" class="col-md-3 bg-purple decoration-none">
+						<div class="box text-center white marg-t2">Contacto</div>
 					</a>
 				</div>
 			</nav>
 		</div>
+		</nav>
+		</div>
 	</header>
-	<!--  Hero  -->
-	<ztec-hero class="row">
-		<controls class="col-xs-12">
-			<a href="" >anterior</a>
-			<a href="">siguiente</a>
-		<controls>
-	</ztec-hero>
-	<!--  Hero  -->
-	<ztec-slider class="row center-xs">
-		<screen class="col-xs-10">
-			<controls>
-				<a href="" >anterior</a>
-				<a href="">siguiente</a>
-			<controls>
-		</screen>
-	</ztec-slider>
+	
 
 	<section class="row">
-		
+		<div class="col-xs-12">
+			<div class="box bg-orange">
+
+					<hero class="row height-50 bg-black">
+					</hero>
+					<inicio id="inicio" class="row bg-purple white font-s20 text-center">
+						<div class="col-xs-12 pad-t2">
+							<p>Facilita tu trabajo con nuestro software</p>	
+						</div>
+						
+					</inicio>
+					<nosotros id="nosotros" class="row  bg-blue">
+						<div class="col-md-4 hauto-xs-div">
+							<div class="width-70p height-30 bg-black marg-5 white">
+								<h2 class="text-center"><b>¿Quienes Somos?</b></h2>
+								<p class="text-justify pad-1">
+									Somos una nueva empresa tecnologica en la cual
+									podras encontrar software novedoso, con los estandares
+									mas actuales del mercado del marketing, si heres una 
+									empresa de servicios y buscas algun framework que te 
+									facilite mas el trabajo, nosotros somos tu opcion indicada.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 hauto-xs-div">
+							<div class="width-70p height-30 bg-black marg-5 white">
+								<h2 class="text-center"><b>Misión</b></h2>
+								<p class="text-justify pad-1">
+									Brindar software de calidad, enfocados en la ideologia del copyleft damos nuestro aporte a la comunidad de codigo abierto a modo dar a nuestros clientes tecnologia de punta. 
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 hauto-xs-div">
+						<div class="width-70p height-30 bg-black marg-5 white">
+								<h2 class="text-center"><b>visión</b></h2>
+								<p class="text-justify pad-1">
+									Ser un punto de referencia en la industria.
+								</p>
+							</div>
+						</div>
+					</nosotros>
+
+					<productos id="productos" class="row bg-turquoise text-center">
+						<div class="col-md-4 hauto-xs-div">
+							<div class="width-70p height-35 bg-black marg-5 white">
+								<h2 class="text-center"><b>FlashFront</b></h2>
+								<p class="text-justify pad-1">
+									Libreria de CSS para el maquetado rapido de sitios web
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 hauto-xs-div">
+							<div class="width-70p height-35 bg-black marg-5 white">
+								<h2 class="text-center"><b>AsenZor</b></h2>
+								<p class="text-justify pad-1">
+									Framework diseñado para usar Python bajo el servidor Apache de XAMPP,no te compliques la vida buscando que te expliquen esas cosas que no te dicen de como crear sitios web con python a la hora se configurar tu hosting. Nuestro motor de plantillas es compareble a frameworks como django, web2py, flask y demas.
+								</p>
+								<p>
+									Ideal para trabajos en equipo con programadores de PHP
+								</p>
+							</div>
+						</div>
+						<div class="col-md-4 hauto-xs-div">
+						<div class="width-70p height-35 bg-black marg-5 white">
+								<h2 class="text-center"><b>PythonZ</b></h2>
+								<p class="text-justify pad-1">
+									¿Alguna vez has intentado hacer una lambda en python tal como la harias en JS?
+									Entonces sabras que esta no pueden ser mas de una linea, pero para PythonZ esto no es problema.Crea funciones anonimas como si de JS se tratara con el codigo limpio que brinda python y ademas si eres aun mas creativo, personaliza las sentencias especiales con el idioma que elijas tan facil como en lugar de <span class="blue">while</span> por ejemplo colocar <span class="blue">mientras</span>, ó <span class="blue">for</span> a <span class="blue">por</span> y más.
+
+								</p>
+							</div>
+						</div>
+					</productos>
+					<contacto id="contacto" class="row bg-alizarin">
+												
+					</contacto>
+			
+			
+			</div>
+		<div>
 	</section>
 	<footer class="row">
-		
+		<div class="col-xs-12 text-center pad-t5 bg-concret height-10">
+			ZerpaTechnology@2016
+		</div>
 	</footer>
 </div>
 
