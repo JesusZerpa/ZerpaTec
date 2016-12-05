@@ -76,8 +76,9 @@ header {
   height: 900px; }
 
 ztec-hero {
+  background-color: black;
   background-image: url("../imgs/bg1.jpg");
-  background-size: 100% auto;
+  background-size: 150% auto;
   background-repeat: no-repeat;
   background-position: center; }
   @media (min-width: 320px) and (max-width: 360px) {
@@ -164,4 +165,4 @@ ztec-slider {
 menu {
   display: inline-block; }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=ztec-components.css.map */

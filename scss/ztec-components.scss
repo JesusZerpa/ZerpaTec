@@ -296,6 +296,7 @@ header{
 //sass no soporta @extend globales
 //v0.1 lista
 ztec-hero{
+	background-color:black;
 	@media (min-width:$width-1) and (max-width:$width-2){
 		
 		@include resp-h($width-1,false);
@@ -319,7 +320,7 @@ ztec-hero{
 	}
 
 	background-image:url("../imgs/bg1.jpg");
-	background-size: 100% auto;
+	background-size: 150% auto;
 	background-repeat: no-repeat;
 	background-position:center;
 	>controls{
