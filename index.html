@@ -5,19 +5,33 @@
 	<title>ZerpaTechnology</title>
 	<!--<meta http-equiv="refresh" content="1">-->
 	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<link rel="stylesheet" type="text/css" href="css/ff.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+	<link rel="stylesheet" type="text/css" href="../FlashFront/css/ff.css">
 	<link rel="stylesheet" type="text/css" href="css/bg-imgs.css">
 
-	<link rel="stylesheet" type="text/css" href="css/ztec-components.css">
+	<!--<link rel="stylesheet" type="text/css" href="css/ztec-components.css">-->
+	
+	<style>
+
+	/*Aqui son los estilos unicos de la vista*/
+	nosotros{
+
+	}
+	productos{
+
+	}
+	contacto{
+
+	}
+	</style>
 
 </head>
-<body class="sin-marg">
-<div class="container-fluid bg-gray">
-	<header class="row">
-	<div class="container-fluid fixed width-100p pad-l2">
-	<nav class="row bg-blue">
+<body class="sin-marg ff">
+	<header class="fixed width-100p animated bounce">
+	<div class="container-fluid pad-l2">
+	<div class="row bg-blue bar">
 
 		<div class="col-md-3 bg-gray">
 			<h1>zerpaTechnology</h1>
@@ -29,27 +43,27 @@
 						<div class="box  text-center white marg-t2">Inico</div>
 					</a>
 					<a href="" class="col-md-3 bg-purple decoration-none">
-						<div class="box text-center white marg-t2">Acerca de Nosotros</div>
-					</a>
-					<a href="" class="col-md-3 bg-purple decoration-none">
 						<div class="box text-center white marg-t2">Productos</div>
 					</a>
+					<a href="" class="col-md-3 bg-purple decoration-none">
+						<div class="box text-center white marg-t2">Acerca de Nosotros</div>
+					</a>
+					
 					<a href="" class="col-md-3 bg-purple decoration-none">
 						<div class="box text-center white marg-t2">Contacto</div>
 					</a>
 				</div>
-			</nav>
+			</div>
 		</div>
 		</nav>
 		</div>
 	</header>
-
-
-	<section class="row">
+<div class="container-fluid bg-gray pad-t5">
+	<section class="row font-ubuntu">
 		<div class="col-xs-12">
 			<div class="box bg-orange">
 
-					<hero class="row height-50 bg-black">
+					<hero class="row height-50 bg-black animated zoomIn">
 					</hero>
 					<inicio id="inicio" class="row bg-purple white font-s20 text-center">
 						<div class="col-xs-12 pad-t2">
@@ -57,37 +71,6 @@
 						</div>
 						
 					</inicio>
-					<nosotros id="nosotros" class="row  bg-blue height-40-ddiv">
-						<div class="col-sm-4 col-md-4 hauto-xs-div hauto-sm-div hauto-md-div hauto-lg-div">
-							<div class="width-70p bg-black marg-5 white">
-								<h2 class="text-center"><b>¿Quienes Somos?</b></h2>
-								<p class="text-justify pad-1">
-									Somos una nueva empresa tecnologica en la cual
-									podras encontrar software novedoso, con los estandares
-									mas actuales del mercado del marketing, si heres una 
-									empresa de servicios y buscas algun framework que te 
-									facilite mas el trabajo, nosotros somos tu opcion indicada.
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-4 col-md-4 hauto-xs-div">
-							<div class="width-70p  bg-black marg-5 white">
-								<h2 class="text-center"><b>Misión</b></h2>
-								<p class="text-justify pad-1">
-									Brindar software de calidad, enfocados en la ideologia del copyleft damos nuestro aporte a la comunidad de codigo abierto a modo dar a nuestros clientes tecnologia de punta. 
-								</p>
-							</div>
-						</div>
-						<div class="col-sm-4 col-md-4 hauto-xs-div">
-						<div class="width-70p bg-black marg-5 white">
-								<h2 class="text-center"><b>visión</b></h2>
-								<p class="text-justify pad-1">
-									Ser un punto de referencia en la industria.
-								</p>
-							</div>
-						</div>
-					</nosotros>
-
 					<productos id="productos" class="row bg-turquoise text-center">
 						<div class="col-sm-4 col-md-4 hauto-xs-div">
 							<div class="width-70p height-35 bg-black marg-5 white">
@@ -119,10 +102,40 @@
 							</div>
 						</div>
 					</productos>
+					<nosotros id="nosotros" class="row  bg-blue height-40-ddiv">
+						<div class="col-sm-4 col-md-4 hauto-xs-div hauto-sm-div hauto-md-div hauto-lg-div">
+							<div class="width-70p bg-black marg-5 white">
+								<h2 class="text-center"><b>¿Quienes Somos?</b></h2>
+								<p class="text-justify pad-1">
+									Somos una nueva empresa tecnologica en la cual
+									podras encontrar software novedoso, con los estandares
+									mas actuales del mercado del marketing, si heres una 
+									empresa de servicios y buscas algun framework que te 
+									facilite mas el trabajo, nosotros somos tu opcion indicada.
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 hauto-xs-div">
+							<div class="width-70p  bg-black marg-5 white">
+								<h2 class="text-center"><b>Misión</b></h2>
+								<p class="text-justify pad-1">
+									Brindar software de calidad, enfocados en la ideologia del copyleft damos nuestro aporte a la comunidad de codigo abierto a modo dar a nuestros clientes tecnologia de punta. 
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-4 col-md-4 hauto-xs-div">
+						<div class="width-70p bg-black marg-5 white">
+								<h2 class="text-center"><b>visión</b></h2>
+								<p class="text-justify pad-1">
+									Ser un punto de referencia en la industria. tal como lo son hoy en dia empresas como Google, Canonical, Apple, Oracle, Microsoft y muchas otras compañias que dia dia estan revolucionando la tecnologia. 
+								</p>
+							</div>
+						</div>
+					</nosotros>
+
+					
 					<contacto id="contacto" class="row bg-alizarin">
-					<div class="">
-						
-					</div>
+					<img src="imgs/foto.png" class="marg-5">
 												
 					</contacto>
 			
@@ -135,6 +148,9 @@
 			ZerpaTechnology@2016
 		</div>
 	</footer>
+
+
+
 </div>
 
 </body>
